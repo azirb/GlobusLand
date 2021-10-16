@@ -17,11 +17,11 @@ window.addEventListener("scroll", () => {
 
 up.addEventListener("click", () =>{ 
     let currPos = pageYOffset;
-    window.scrollTo(0,currPos - fstSlide.offsetHeight);
+    window.scrollTo(0,currPos - fstSlide.offsetHeight - 50);
 })
 
 down.addEventListener("click", () =>{ 
     let currPos = pageYOffset; 
-    window.scrollTo(0,currPos + fstSlide.offsetHeight);
+    window.scrollTo(0,currPos + fstSlide.offsetHeight + 50);
 })
 
